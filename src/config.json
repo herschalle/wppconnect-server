@@ -1,5 +1,5 @@
 {
-  "secretKey": "THISISMYSECURETOKEN",
+  "secretKey": "HldVHdJKdguadGKdH",
   "host": "http://localhost",
   "port": "21465",
   "startAllSession": true,
@@ -24,6 +24,7 @@
     "logger": ["console", "file"]
   },
   "createOptions": {
+    headless: true,
     "browserArgs": [
       "--disable-web-security",
       "--no-sandbox",
